@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+  {% load static %}
+  <meta charset="UTF-8" />
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/ind.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+    <link rel="shortcut icon" type="image/jpg" href="{% static 'css/img/icon.jpg'%}">
+
+</head>
+<body>
+    {% load static %}
+  <div class="navbar">
+      <div class="lg"></div>
+    <nav >
+        <div class="dash">
+
+        </div>
+            <ul class="menu">
+               <li><a href="{% url 'table' %}" >
+                   <i class="fas fa-tachometer-alt"></i>
+                   <span>DASHBOARD</span>
+               </a>
+               </li>
+                    <li><a href="{% url 'table' %}" >
+                        <i class="fas fa-table"></i>
+                          <span class="nav-item">&nbsp;Table</span></a>
+                    </li>
+                    <li>  <a href="{% url 'myChart' %}" >
+                        <i class="fas fa-chart-line"></i>
+                          <span class="nav-item">&nbsp;Chart</span></a>
+                    </li>
+                    <li>  <a href="  {% url 'json' %}" >
+                        <i class="fas fa-align-center"></i>
+                        <span class="nav-item">&nbsp;Json</span></a>
+                    </li>
+                   <li class="logout"><a href="  {% url 'table' %}" >
+                        <i class="fas fa-sign-out-alt"></i>
+                        <span class="nav-item">&nbsp;Logout</span></a>
+                    </li>
+            </ul>
+        
+         <!--   <form method="post" action="{% url 'table' %}">
+                {% csrf_token %}
+                
+                <select id="select" name="select_field">
+                  
+                  <option value="signup" selected>S'inscrire</option>
+                  <option value="logout">Se déconnecter</option>
+                </select>
+
+              </form>-->
+         
+              
+  
+    </nav>
+</div>
+{% block i %}
+  {% endblock %}
+  

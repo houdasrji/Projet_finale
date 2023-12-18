@@ -1,0 +1,161 @@
+.main--content{
+    position: relative;
+    background: #ebe9e9;
+    width: 100%;
+    padding: 1rem;
+}
+.show-row img{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.image{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.show-row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #9EDDFF;
+    border-radius: 10px;
+    padding: 10px 2rem;
+    margin-bottom: 1rem;
+}
+.projects{
+    background: white;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 2rem;
+}
+.tables{
+    width: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    background: #96B6C5;
+    color: #fff;
+}
+th{
+    padding: 15px;
+    text-align: left;
+}
+tbody{
+    background: #f2f2f2;
+}
+td{
+    padding: 15px;
+    font-size: 14px;
+    color: #1A01CC;
+}
+tr:nth-child(even){
+    background: #fff;
+}
+
+/*
+.tables{
+    position: relative ;
+    left: 280px;
+    top: 250px;
+    width: 90%;
+    height:890px;
+    border-spacing: 0;
+    min-width: 1000px;
+}
+#mon_select{
+    position: absolute;
+    content: none;
+    text-align: center;
+    width: 100px;
+    height: 30px;
+    left: 300px;
+    top: 30px;
+}
+label[for="mon_select"] {
+    position: absolute;
+     left: 250px;
+     top: 30px;
+     width: 130px;
+     font-size: 20px;
+     visibility:visible;
+  }
+
+label[for='search_time']
+{
+    position: absolute;
+    left: 830px;
+    top: 30px;
+    font-size: 20px;
+}
+#search_time::placeholder{
+text-align: center;
+}
+#search_time{
+    position: absolute;
+    left: 900px;
+    top: 33px;
+}
+
+
+#Temperature-logo {
+    width: 21px;
+    height: 20px;
+    margin-left: 30px;
+}
+#Humidity-logos{
+    width: 29px;
+    height: 20px;
+    margin-left: 30px;
+}
+#Humidity-logo{
+    width: 29px;
+    height: 20px;
+    margin-left: 30px;
+}
+
+#Capteur-logo{
+    width: 30px;
+    height: 37px;
+    margin-left: 50px;
+}
+.projects .tables thead th{
+    background-color: #88bdba;
+    width: 200px;
+    font-weight: bold;
+    left: 70%;
+    border-top: solid #88bdba 10px;
+    border-bottom: solid #88bdba 1px;
+    border-left: solid #88bdba 1px;
+    text-align: center;
+}
+.projects table td{
+    width: 500px;
+    height: 25px;
+    padding: 15px  15px;
+    border-bottom: solid #eee 1px;
+    border-left: solid #eee 1px;
+}
+.projects table tr th:last-child{
+    border-right: solid  black 1px;
+}
+.projects .tables tr:hover td{
+    background-color: rgb(180, 254, 255);
+}
+#csv{
+    position: absolute;
+    top: 120px;
+    right: 60px;
+    background-color: #ccc;
+    color: red;
+}
+#csv:hover{
+    background-color: #999;
+    color: #fff;
+}*/
